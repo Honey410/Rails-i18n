@@ -30,4 +30,20 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    models:
+      feedback: "Feedback"
+    attributes:
+      feedback:
+        author: "Your Name"
+        message: "Message"
+  global:
+    forms:
+      submit: Submit
+    menu:
+      home: "Home"
+      feedback: "Feedback"
+  static_pages:
+    index:
+      welcome: "Welcome!"
+      services_html: "We provide some <em> Good services to People </em>"

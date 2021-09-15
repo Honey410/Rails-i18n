@@ -1,0 +1,18 @@
+ru:
+  activerecord:
+    models:
+      feedback: "Обратная связь"
+    attributes:
+      feedback:
+        author: "Ваше имя"
+        message: "Сообщение"
+  global:
+    forms:
+      submit: Представлять на рассмотрение
+    menu:
+      home: "Дом"
+      feedback: "Обратная связь"
+  static_pages:
+    index:
+      welcome: "Добро пожаловать!"
+      services_html: "мы предоставляем хорошие услуги людям"
