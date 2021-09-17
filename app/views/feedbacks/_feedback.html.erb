@@ -1,7 +1,7 @@
 <article>
   <em>
-    <%= tag.time feedback.created_at, datetime: feedback.created_at%><br>
-    Posted by <%= feedback.author%>
+    <%= tag.time 1(feedback.created_at, format: :long), datetime: feedback.created_at%><br>
+    <%= t 'feedbacs.posted_by, author: feedback.author' %>
   </em>
   <p>
     <%= feedback.message%>

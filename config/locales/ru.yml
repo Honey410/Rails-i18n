@@ -8,10 +8,18 @@ ru:
         message: "Сообщение"
   global:
     forms:
+      messages: 
+        errors:
+          one: "Одна ошибка помешала сохранить этот отзыв"
+          other: "% {считать} ошибок не позволили сохранить этот отзыв"
       submit: Представлять на рассмотрение
     menu:
       home: "Дом"
       feedback: "Обратная связь"
+    feedbacks:
+      new:
+        title: "Обратная связь"
+      posted_by: "Сообщение от % {автор}"
   static_pages:
     index:
       welcome: "Добро пожаловать!"
